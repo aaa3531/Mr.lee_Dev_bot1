@@ -4,9 +4,6 @@ import feedparser
 import Utils.hashUtil as hashUtil
 import json
 
-my_token = '1570819804:AAGeHTU4gyirsIBVbTUAAOFM5Ebh0BPrMss' #@telegram_bot
-chat_id = "-1001249399947"
-
 def dart():
     with open("/home/ubuntu/telegram_bot2/dart.json", "r", encoding="UTF-8") as f:
         dart_json = json.load(f)

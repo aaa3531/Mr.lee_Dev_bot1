@@ -8,11 +8,6 @@ import datetime
 from collections import defaultdict
 import DB.Database as db
 
-my_token = '1570819804:AAGeHTU4gyirsIBVbTUAAOFM5Ebh0BPrMss' #@telegram_bot
-#chat_id = "-1001424452588"
-# chat_id = "-1001255369898" #testchanel
-chat_id = "-1001249399947"
-
 def bot():
     '''
     TODO
